@@ -9,15 +9,39 @@
 	text-align: center;
 }
 
+.theme-black a {
+	color: #fff;
+}
+
 .theme-black .main-logo {
-	font-size: 100px;
-	margin-top: 25%;
+	font-size: 30px;
+	vertical-align: middle;
 }
 
 .theme-black .main-logo .special {
 	color: #009900;
 }
 
-.theme-black a {
-	color: #fff;
+@media only screen and (min-width : 320px) {
+	.theme-black .main-logo {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (min-width : 384px) {
+	.theme-black .main-logo {
+		font-size: 45px;
+	}
+}
+
+@media only screen and (min-width : 568px) {
+	.theme-black .main-logo {
+		font-size: 70px;
+	}
+}
+
+@media only screen  and (min-width : 1024px) {
+	.theme-black .main-logo {
+		font-size: 100px;
+	}
 }
